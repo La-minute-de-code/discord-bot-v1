@@ -1,0 +1,205 @@
+{
+  "quizName": "Quiz Linux",
+  "questions": [
+    {
+      "question": "Quel est le noyau du système d'exploitation Linux?",
+      "options": [
+        "Le noyau Linux",
+        "Le noyau Unix",
+        "Le noyau BSD",
+        "Le noyau Windows"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le rôle d'un gestionnaire de paquets sous Linux?",
+      "options": [
+        "Installer, mettre à jour et supprimer des logiciels",
+        "Gérer les utilisateurs",
+        "Administrer les fichiers système",
+        "Optimiser les performances du noyau"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quelle commande permet d'afficher les fichiers et dossiers dans un répertoire sous Linux?",
+      "options": [
+        "ls",
+        "dir",
+        "list",
+        "show"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quelle commande permet de changer de répertoire sous Linux?",
+      "options": [
+        "cd",
+        "chdir",
+        "dir",
+        "move"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel fichier contient les informations sur les utilisateurs dans Linux?",
+      "options": [
+        "/etc/passwd",
+        "/etc/users",
+        "/var/users",
+        "/usr/bin/users"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quelle commande permet d'afficher les informations sur le système sous Linux?",
+      "options": [
+        "uname",
+        "sysinfo",
+        "systemctl",
+        "info"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quelle commande permet de créer un fichier sous Linux?",
+      "options": [
+        "touch",
+        "create",
+        "make",
+        "new"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment voir les permissions d'un fichier sous Linux?",
+      "options": [
+        "ls -l",
+        "perm",
+        "file -p",
+        "chmod -v"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment modifier les permissions d'un fichier sous Linux?",
+      "options": [
+        "chmod",
+        "perm",
+        "setperm",
+        "chown"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel fichier contient les informations sur les groupes sous Linux?",
+      "options": [
+        "/etc/group",
+        "/etc/users",
+        "/var/group",
+        "/usr/bin/group"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quelle commande permet de visualiser les processus en cours sous Linux?",
+      "options": [
+        "ps",
+        "top",
+        "jobs",
+        "task"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quelle commande permet d'afficher la mémoire utilisée sous Linux?",
+      "options": [
+        "free",
+        "mem",
+        "ram",
+        "top"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel fichier contient les informations sur les services système sous Linux?",
+      "options": [
+        "/etc/systemd/system",
+        "/etc/services",
+        "/etc/init.d",
+        "/var/services"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quelle commande permet de rechercher un fichier sous Linux?",
+      "options": [
+        "find",
+        "search",
+        "locate",
+        "grep"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment afficher le contenu d'un fichier texte sous Linux?",
+      "options": [
+        "cat",
+        "read",
+        "show",
+        "more"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quelle commande permet de compresser un fichier sous Linux?",
+      "options": [
+        "tar",
+        "gzip",
+        "compress",
+        "zip"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment créer un utilisateur sous Linux?",
+      "options": [
+        "useradd",
+        "adduser",
+        "createuser",
+        "newuser"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel fichier permet de configurer les adresses réseau sous Linux?",
+      "options": [
+        "/etc/network/interfaces",
+        "/etc/netconfig",
+        "/etc/hostname",
+        "/etc/resolv.conf"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quelle commande permet de redémarrer le système sous Linux?",
+      "options": [
+        "reboot",
+        "shutdown -r",
+        "systemctl restart",
+        "reinit"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le rôle du fichier /etc/fstab sous Linux?",
+      "options": [
+        "Gérer les montages de partitions",
+        "Gérer les utilisateurs",
+        "Gérer les services système",
+        "Gérer les droits d'accès"
+      ],
+      "answer": 0
+    }
+  ]
+}

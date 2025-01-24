@@ -1,0 +1,195 @@
+{
+  "quizName": "Quiz Shell/Bash",
+  "questions": [
+    {
+      "question": "Qu'est-ce que Bash?",
+      "options": [
+        "Un interpréteur de commandes pour les systèmes Unix-like",
+        "Un langage de programmation pour les interfaces graphiques",
+        "Un gestionnaire de paquets pour Linux",
+        "Un framework pour les applications web"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel symbole est utilisé pour commenter une ligne dans un script Bash?",
+      "options": [
+        "#",
+        "//",
+        "$",
+        ";"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment afficher un message à l'écran en Bash?",
+      "options": [
+        "echo",
+        "print",
+        "show",
+        "output"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le rôle de la commande 'cd' en Bash?",
+      "options": [
+        "Changer de répertoire",
+        "Afficher le contenu d'un fichier",
+        "Créer un fichier",
+        "Copier un fichier"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment obtenir la liste des fichiers d'un répertoire en Bash?",
+      "options": [
+        "ls",
+        "dir",
+        "list",
+        "show"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment rediriger la sortie d'une commande dans un fichier en Bash?",
+      "options": [
+        "commande > fichier",
+        "commande >> fichier",
+        "commande : fichier",
+        "commande >? fichier"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le rôle de la commande 'chmod' en Bash?",
+      "options": [
+        "Modifier les permissions d'un fichier",
+        "Changer le propriétaire d'un fichier",
+        "Copier un fichier",
+        "Lancer un processus"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment créer un fichier vide en Bash?",
+      "options": [
+        "touch nom_fichier",
+        "create nom_fichier",
+        "new nom_fichier",
+        "make nom_fichier"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment obtenir l'heure actuelle en Bash?",
+      "options": [
+        "date",
+        "time",
+        "clock",
+        "current"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le rôle de la commande 'ps' en Bash?",
+      "options": [
+        "Afficher les processus en cours",
+        "Afficher les fichiers",
+        "Afficher les utilisateurs connectés",
+        "Modifier un fichier"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment ajouter une ligne à la fin d'un fichier en Bash?",
+      "options": [
+        "echo 'texte' >> fichier",
+        "echo 'texte' > fichier",
+        "add 'texte' fichier",
+        "echo 'texte' | fichier"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quelle commande permet de copier un fichier en Bash?",
+      "options": [
+        "cp",
+        "move",
+        "copy",
+        "clone"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment afficher les 10 premières lignes d'un fichier en Bash?",
+      "options": [
+        "head fichier",
+        "tail fichier",
+        "show fichier",
+        "top fichier"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment trouver un fichier en Bash?",
+      "options": [
+        "find",
+        "search",
+        "locate",
+        "grep"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment afficher le contenu d'un fichier en Bash?",
+      "options": [
+        "cat",
+        "read",
+        "show",
+        "output"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment exécuter un script Bash?",
+      "options": [
+        "chmod +x script.sh && ./script.sh",
+        "./script.sh",
+        "bash script.sh",
+        "run script.sh"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quelle commande permet de supprimer un fichier en Bash?",
+      "options": [
+        "rm",
+        "del",
+        "delete",
+        "erase"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Qu'est-ce qu'une variable d'environnement en Bash?",
+      "options": [
+        "Une variable globale qui peut être utilisée dans différents scripts",
+        "Une variable locale à un script",
+        "Une commande interne",
+        "Un type de fichier spécial"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment obtenir l'IP de l'ordinateur en Bash?",
+      "options": [
+        "hostname -I",
+        "ip addr",
+        "ip a",
+        "ifconfig"
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "quizName": "Quiz NestJS",
+  "questions": [
+    {
+      "question": "Qu'est-ce que NestJS?",
+      "options": [
+        "Un framework pour construire des applications backend avec Node.js",
+        "Une bibliothèque front-end",
+        "Un moteur de templates",
+        "Un service cloud pour les applications Node.js"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel langage de programmation est utilisé pour développer des applications NestJS?",
+      "options": [
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "Go"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le rôle du module dans NestJS?",
+      "options": [
+        "Il encapsule les fonctionnalités et les services d'une application",
+        "Il définit la logique d'une API",
+        "Il gère les interactions avec la base de données",
+        "Il est responsable du routage"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel décorateur est utilisé pour définir un contrôleur dans NestJS?",
+      "options": [
+        "@Controller()",
+        "@Route()",
+        "@Service()",
+        "@Module()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est l'objectif du décorateur @Injectable() dans NestJS?",
+      "options": [
+        "Il marque une classe comme pouvant être injectée dans un service",
+        "Il définit une méthode injectable",
+        "Il permet d'injecter une variable dans un module",
+        "Il transforme une classe en module"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "NestJS est basé sur quel patron de conception?",
+      "options": [
+        "Le patron MVC (Model-View-Controller)",
+        "Le patron Singleton",
+        "Le patron Factory",
+        "Le patron Observer"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le rôle du décorateur @Get() dans un contrôleur NestJS?",
+      "options": [
+        "Il définit une route HTTP GET",
+        "Il permet d'ajouter un middleware",
+        "Il définit une méthode POST",
+        "Il injecte un service dans un contrôleur"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel décorateur est utilisé pour gérer les requêtes HTTP POST dans NestJS?",
+      "options": [
+        "@Post()",
+        "@Put()",
+        "@Get()",
+        "@Delete()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment NestJS gère-t-il l'injection de dépendances?",
+      "options": [
+        "Grâce à un conteneur d'injection de dépendances intégré",
+        "Par des appels explicites dans les constructeurs",
+        "Avec un framework tiers comme InversifyJS",
+        "En utilisant des modules statiques"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est l'objectif du décorateur @Param() dans NestJS?",
+      "options": [
+        "Il permet d'extraire les paramètres de l'URL",
+        "Il définit un paramètre de requête",
+        "Il définit une variable de réponse",
+        "Il permet d'injecter une donnée dans le contrôleur"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel module de NestJS est responsable de la gestion des erreurs HTTP?",
+      "options": [
+        "Le module HttpException",
+        "Le module ErrorHandler",
+        "Le module ExceptionFilter",
+        "Le module Logger"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Dans NestJS, que fait la commande 'nest generate module <module-name>'?",
+      "options": [
+        "Elle génère un nouveau module",
+        "Elle crée un contrôleur de base",
+        "Elle initialise la base de données",
+        "Elle configure le serveur web"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le rôle du décorateur @Body() dans NestJS?",
+      "options": [
+        "Il permet d'extraire le corps de la requête HTTP",
+        "Il définit un modèle de validation",
+        "Il permet de traiter les données de réponse",
+        "Il permet d'envoyer des données dans la réponse"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel décorateur est utilisé pour définir un service dans NestJS?",
+      "options": [
+        "@Injectable()",
+        "@Service()",
+        "@Controller()",
+        "@Module()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le but principal de l'exception 'HttpException' dans NestJS?",
+      "options": [
+        "Elle est utilisée pour gérer les erreurs HTTP",
+        "Elle permet de traiter les erreurs de validation",
+        "Elle gère les erreurs dans les services",
+        "Elle est utilisée pour effectuer des redirections"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment exécuter une application NestJS?",
+      "options": [
+        "En utilisant la commande 'npm run start'",
+        "En utilisant 'nest start'",
+        "Avec 'node app.js'",
+        "Avec 'ts-node app.ts'"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Dans NestJS, quel est le rôle d'un middleware?",
+      "options": [
+        "Il intercepte les requêtes avant qu'elles n'atteignent les contrôleurs",
+        "Il gère la logique de base de données",
+        "Il envoie des réponses aux utilisateurs",
+        "Il définit les routes dans une application"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est l'objectif de la commande 'nest generate service <service-name>'?",
+      "options": [
+        "Elle génère un nouveau service",
+        "Elle génère une nouvelle route",
+        "Elle génère une nouvelle exception",
+        "Elle génère un module"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment configurer une base de données dans NestJS?",
+      "options": [
+        "En utilisant TypeORM ou Mongoose pour MongoDB",
+        "En installant un plugin tiers pour la base de données",
+        "En configurant une connexion SQL dans le fichier de configuration",
+        "NestJS ne prend pas en charge les bases de données"
+      ],
+      "answer": 0
+    }
+  ]
+}

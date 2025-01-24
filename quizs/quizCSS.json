@@ -1,0 +1,205 @@
+{
+  "quizName": "Quiz CSS",
+  "questions": [
+    {
+      "question": "Que signifie CSS?",
+      "options": [
+        "Cascading Style Sheets",
+        "Creative Style Sheets",
+        "Computer Style Sheets",
+        "Colorful Style Sheets"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel attribut est utilisé pour appliquer du CSS en ligne à un élément HTML?",
+      "options": [
+        "style",
+        "css",
+        "class",
+        "inline"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel symbole est utilisé pour sélectionner un id dans CSS?",
+      "options": [
+        ".",
+        "#",
+        "*",
+        "&"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Quel est l'ordre de priorité dans CSS (du plus important au moins important)?",
+      "options": [
+        "Inline CSS > Classes > ID > Balises",
+        "Inline CSS > ID > Classes > Balises",
+        "ID > Inline CSS > Classes > Balises",
+        "Classes > Inline CSS > ID > Balises"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Quel est le bon format pour définir une couleur rouge en CSS?",
+      "options": [
+        "color: rgb(255, 0, 0);",
+        "color: #ff0000;",
+        "color: red;",
+        "Toutes les réponses sont correctes"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Quelle propriété est utilisée pour changer la couleur d'arrière-plan?",
+      "options": [
+        "background-color",
+        "color",
+        "bgcolor",
+        "background"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment appliquer une bordure de 1px solide et noire à un élément?",
+      "options": [
+        "border: black solid 1px;",
+        "border: 1px solid black;",
+        "border: 1px black solid;",
+        "border: solid 1px black;"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Quel mot-clé est utilisé pour appliquer une règle à plusieurs sélecteurs?",
+      "options": [
+        "et",
+        "ou",
+        ",",
+        "&"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Quelle propriété est utilisée pour changer la police d'un texte?",
+      "options": [
+        "font-family",
+        "font-style",
+        "text-font",
+        "font"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le bon moyen de centrer un élément en CSS?",
+      "options": [
+        "text-align: center;",
+        "margin: auto;",
+        "display: flex; justify-content: center; align-items: center;",
+        "Toutes les réponses sont correctes selon le contexte"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Quelle propriété est utilisée pour contrôler l'espacement à l'intérieur d'un élément?",
+      "options": [
+        "margin",
+        "padding",
+        "spacing",
+        "border-spacing"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Comment faire en sorte qu'un élément prenne toute la largeur disponible?",
+      "options": [
+        "width: 100%;",
+        "max-width: 100%;",
+        "flex: 1;",
+        "Toutes les réponses sont valides"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Quelle unité est relative à la taille de police actuelle d'un élément?",
+      "options": [
+        "px",
+        "em",
+        "%",
+        "vh"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Quelle propriété est utilisée pour ajouter une ombre à un texte?",
+      "options": [
+        "text-decoration",
+        "text-shadow",
+        "box-shadow",
+        "font-shadow"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Comment rendre un élément transparent en CSS?",
+      "options": [
+        "opacity: 0.5;",
+        "visibility: hidden;",
+        "display: none;",
+        "transparent: true;"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel mot-clé est utilisé pour définir une animation infinie?",
+      "options": [
+        "loop",
+        "infinite",
+        "repeat",
+        "forever"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Quelle propriété est utilisée pour rendre un texte souligné?",
+      "options": [
+        "text-style",
+        "text-decoration: underline;",
+        "font-decoration: underline;",
+        "text-decoration: line;"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Quelle propriété contrôle la superposition des éléments?",
+      "options": [
+        "layer",
+        "z-index",
+        "position",
+        "order"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Comment faire défiler le contenu d'un élément s'il dépasse ses limites?",
+      "options": [
+        "overflow: scroll;",
+        "overflow: auto;",
+        "overflow: hidden;",
+        "Toutes les réponses sont correctes selon le contexte"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Quelle valeur de `position` est utilisée pour fixer un élément par rapport à la fenêtre?",
+      "options": [
+        "relative",
+        "absolute",
+        "fixed",
+        "sticky"
+      ],
+      "answer": 2
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "quizName": "Quiz NextJS",
+  "questions": [
+    {
+      "question": "Qu'est-ce que Next.js?",
+      "options": [
+        "Un framework backend pour Node.js",
+        "Un framework React pour le développement web fullstack",
+        "Une bibliothèque de gestion d'état",
+        "Un langage de programmation"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Quelle est la commande pour créer un nouveau projet Next.js?",
+      "options": [
+        "npx create-next-app",
+        "npm init next-app",
+        "next create-app",
+        "create-next-project"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment s'appelle le dossier où sont stockées les pages dans Next.js 13+?",
+      "options": [
+        "pages",
+        "src",
+        "app",
+        "routes"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Quelle méthode de rendu Next.js utilise par défaut dans l'App Router?",
+      "options": [
+        "Client-side Rendering (CSR)",
+        "Server-side Rendering (SSR)",
+        "Static Site Generation (SSG)",
+        "Incremental Static Regeneration (ISR)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Comment déclarer une route dynamique dans Next.js?",
+      "options": [
+        "En utilisant [parametre]",
+        "En utilisant :parametre",
+        "En utilisant {parametre}",
+        "En utilisant (parametre)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel hook est utilisé pour la navigation programmatique dans Next.js?",
+      "options": [
+        "useNavigate",
+        "useRouter",
+        "useNavigation",
+        "useRoute"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Où place-t-on les fichiers statiques dans Next.js?",
+      "options": [
+        "Dans le dossier public",
+        "Dans le dossier static",
+        "Dans le dossier assets",
+        "Dans le dossier media"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quelle fonction est utilisée pour le chargement des données côté serveur dans Next.js 13+?",
+      "options": [
+        "getStaticProps",
+        "getServerSideProps",
+        "async function",
+        "useEffect"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Comment définit-on un layout dans Next.js 13+?",
+      "options": [
+        "En créant un fichier _app.js",
+        "En créant un fichier layout.js/tsx",
+        "En utilisant le composant Layout",
+        "En créant un fichier _layout.js"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Quelle est la fonction de next/image?",
+      "options": [
+        "Optimiser automatiquement les images",
+        "Ajouter des filtres aux images",
+        "Convertir les formats d'image",
+        "Stocker les images en cache"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment gérer les métadonnées dans Next.js 13+?",
+      "options": [
+        "En utilisant le fichier metadata.js",
+        "En utilisant le composant Head",
+        "En créant un fichier metadata.config",
+        "En utilisant l'objet metadata dans layout.js ou page.js"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Quelle est la différence entre 'use client' et 'use server'?",
+      "options": [
+        "Il n'y a pas de différence",
+        "'use client' pour le code côté client, 'use server' pour les actions serveur",
+        "'use client' pour le SSR, 'use server' pour le CSR",
+        "'use client' pour le routing, 'use server' pour l'API"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Comment implémenter le chargement dans Next.js 13+?",
+      "options": [
+        "Avec un fichier loading.js",
+        "Avec un composant Spinner",
+        "Avec useLoading()",
+        "Avec LoadingProvider"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quelle est la meilleure pratique pour gérer les variables d'environnement dans Next.js?",
+      "options": [
+        "Les stocker dans .env.local",
+        "Les définir dans next.config.js",
+        "Les mettre dans config.js",
+        "Les stocker dans variables.js"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment gérer les erreurs dans Next.js 13+?",
+      "options": [
+        "Avec try/catch",
+        "Avec un fichier error.js",
+        "Avec ErrorBoundary",
+        "Avec handleError()"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Quelle est la commande pour démarrer le serveur de développement Next.js?",
+      "options": [
+        "npm start",
+        "npm run dev",
+        "next dev",
+        "next start"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Comment optimiser les polices dans Next.js 13+?",
+      "options": [
+        "En utilisant next/font",
+        "En important les polices dans _app.js",
+        "En utilisant @font-face",
+        "En utilisant un CDN"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quelle est la fonction du fichier next.config.js?",
+      "options": [
+        "Définir les routes de l'application",
+        "Configurer les paramètres de build et runtime",
+        "Gérer les dépendances",
+        "Définir les composants globaux"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Comment implémenter une API dans Next.js?",
+      "options": [
+        "En créant des fichiers dans le dossier api",
+        "En utilisant Express.js",
+        "En configurant un serveur séparé",
+        "En utilisant une base de données directement"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quelle est la meilleure pratique pour la gestion d'état dans Next.js?",
+      "options": [
+        "Utiliser uniquement les props",
+        "Utiliser Redux ou Zustand",
+        "Utiliser les variables globales",
+        "Utiliser localStorage"
+      ],
+      "answer": 1
+    }
+  ]
+}

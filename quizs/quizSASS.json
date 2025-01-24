@@ -1,0 +1,195 @@
+{
+  "quizName": "Quiz Sass/SCSS",
+  "questions": [
+    {
+      "question": "Qu'est-ce que Sass?",
+      "options": [
+        "Un préprocesseur CSS",
+        "Un framework CSS",
+        "Un outil de débogage CSS",
+        "Une méthode pour minifier le CSS"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quelle est la principale différence entre Sass et SCSS?",
+      "options": [
+        "Sass utilise des accolades et des points-virgules, SCSS non",
+        "SCSS est une version améliorée de Sass qui utilise des accolades et des points-virgules",
+        "Sass et SCSS sont identiques",
+        "Sass est plus lent que SCSS"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Quel est le rôle des variables en Sass?",
+      "options": [
+        "Stocker des valeurs réutilisables",
+        "Modifier les valeurs CSS en temps réel",
+        "Minifier le code CSS",
+        "Gérer la compatibilité entre les navigateurs"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment définit-on une variable en SCSS?",
+      "options": [
+        "$variable: value;",
+        "var(variable) = value;",
+        "variable = value;",
+        "set variable = value;"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment inclure un fichier SCSS dans un autre fichier SCSS?",
+      "options": [
+        "@import 'file';",
+        "@include 'file';",
+        "import('file');",
+        "include 'file';"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Que fait la directive @mixin?",
+      "options": [
+        "Elle permet de réutiliser un ensemble de règles CSS",
+        "Elle importe un fichier SCSS",
+        "Elle définit une variable",
+        "Elle crée une nouvelle fonction"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment appelle-t-on un mixin en SCSS?",
+      "options": [
+        "@mixin myMixin;",
+        "myMixin()",
+        "@include myMixin;",
+        "include myMixin()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Que fait la directive @extend en Sass?",
+      "options": [
+        "Elle permet de partager des règles CSS entre plusieurs sélecteurs",
+        "Elle crée une nouvelle classe CSS",
+        "Elle crée une nouvelle variable",
+        "Elle remplace les règles CSS existantes"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Que permet de faire la fonction nth-child() en SCSS?",
+      "options": [
+        "Sélectionner des éléments spécifiques dans un tableau",
+        "Sélectionner les éléments enfants d'un élément donné",
+        "Sélectionner les éléments qui ont un certain type de valeur",
+        "Appliquer une règle CSS sur le premier élément"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Que permet de faire la fonction @function en Sass?",
+      "options": [
+        "Définir une fonction qui retourne une valeur calculée",
+        "Créer une nouvelle variable",
+        "Importer un fichier SCSS",
+        "Définir une règle CSS conditionnelle"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Que fait la fonction calc() en SCSS?",
+      "options": [
+        "Elle permet de faire des calculs sur les valeurs CSS",
+        "Elle applique des transformations CSS",
+        "Elle calcule les marges entre les éléments",
+        "Elle ajuste la taille d'un élément"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Que fait la directive @import dans Sass?",
+      "options": [
+        "Elle permet d'inclure un fichier SCSS dans un autre",
+        "Elle définit une nouvelle classe",
+        "Elle ajoute un préfixe aux sélecteurs",
+        "Elle initialise une variable"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment déclarer un commentaire multi-lignes en SCSS?",
+      "options": [
+        "/* commentaire */",
+        "// commentaire",
+        "/* comment */",
+        "// comment"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment gérer les couleurs dans SCSS?",
+      "options": [
+        "En utilisant des variables de couleur",
+        "En définissant directement les codes hexadécimaux",
+        "En utilisant des mixins pour les couleurs",
+        "En utilisant la fonction lighten()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Qu'est-ce que la méthode @media en SCSS?",
+      "options": [
+        "Elle permet de définir des styles pour des tailles d'écran spécifiques",
+        "Elle définit une variable à utiliser dans toute l'application",
+        "Elle permet d'ajouter une nouvelle règle CSS",
+        "Elle applique un préfixe aux propriétés CSS"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment compresser un fichier SCSS en CSS?",
+      "options": [
+        "En utilisant la commande 'sass --watch' avec l'option --style compressed",
+        "En utilisant la commande 'scss --compress'",
+        "Avec un plugin SCSS dédié",
+        "En activant l'option 'minify' dans le fichier de configuration"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le rôle des @import et @use en SCSS?",
+      "options": [
+        "@import est obsolète, @use est la méthode recommandée pour inclure des fichiers SCSS",
+        "@import et @use sont interchangeables",
+        "@import est plus rapide que @use",
+        "@use est utilisé uniquement pour les mixins"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est l'objectif principal des partials en SCSS?",
+      "options": [
+        "Organiser le code en fichiers plus petits pour les inclure dans d'autres fichiers",
+        "Minifier le code CSS généré",
+        "Utiliser des variables dans tout le projet",
+        "Définir des mixins globaux"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment peut-on éviter les conflits de nommage avec @use?",
+      "options": [
+        "En utilisant 'as' pour donner un alias à un fichier importé",
+        "En définissant un préfixe pour chaque variable",
+        "En créant des variables uniques",
+        "En utilisant des commentaires explicites"
+      ],
+      "answer": 0
+    }
+  ]
+}

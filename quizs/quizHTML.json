@@ -1,0 +1,205 @@
+{
+  "quizName": "Quiz HTML",
+  "questions": [
+    {
+      "question": "Que signifie HTML?",
+      "options": [
+        "HyperText Markup Language",
+        "Home Tool Markup Language",
+        "Hyperlinks and Text Markup Language",
+        "HyperText Modern Language"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est l'élément racine d'une page HTML?",
+      "options": [
+        "<head>",
+        "<body>",
+        "<html>",
+        "<root>"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Quel élément HTML est utilisé pour créer un lien hypertexte?",
+      "options": [
+        "<a>",
+        "<link>",
+        "<href>",
+        "<anchor>"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel attribut est obligatoire dans une balise d'image <img>?",
+      "options": [
+        "src",
+        "alt",
+        "title",
+        "width"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel élément HTML est utilisé pour définir un titre de document?",
+      "options": [
+        "<head>",
+        "<title>",
+        "<meta>",
+        "<header>"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Comment insérer une ligne horizontale dans HTML?",
+      "options": [
+        "<line>",
+        "<hr>",
+        "<break>",
+        "<border>"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Quel est l'élément correct pour ajouter une liste ordonnée?",
+      "options": [
+        "<ul>",
+        "<ol>",
+        "<list>",
+        "<li>"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Quel élément HTML est utilisé pour insérer un saut de ligne?",
+      "options": [
+        "<break>",
+        "<br>",
+        "<lb>",
+        "<line>"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Quel attribut permet d'ouvrir un lien dans un nouvel onglet ou une nouvelle fenêtre?",
+      "options": [
+        "newtab",
+        "target='_blank'",
+        "rel='new'",
+        "window='_new'"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Quel élément est utilisé pour créer une cellule de tableau?",
+      "options": [
+        "<cell>",
+        "<td>",
+        "<table>",
+        "<th>"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Comment insérer un commentaire dans HTML?",
+      "options": [
+        "// Ceci est un commentaire",
+        "<!-- Ceci est un commentaire -->",
+        "/* Ceci est un commentaire */",
+        "<?-- Ceci est un commentaire -->"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Quel attribut est utilisé pour définir un identifiant unique pour un élément?",
+      "options": [
+        "class",
+        "id",
+        "name",
+        "unique"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Quelle balise HTML est utilisée pour insérer une vidéo?",
+      "options": [
+        "<media>",
+        "<movie>",
+        "<video>",
+        "<source>"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Quel élément HTML est utilisé pour définir un paragraphe?",
+      "options": [
+        "<paragraph>",
+        "<para>",
+        "<p>",
+        "<text>"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Quel est l'attribut correct pour spécifier une image de fond?",
+      "options": [
+        "background",
+        "bgimage",
+        "style='background-image'",
+        "image-source"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Quel élément est utilisé pour définir une liste déroulante dans un formulaire?",
+      "options": [
+        "<input>",
+        "<dropdown>",
+        "<select>",
+        "<option>"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Quel élément HTML est utilisé pour définir une zone de texte multiligne?",
+      "options": [
+        "<textarea>",
+        "<text>",
+        "<input type='text'>",
+        "<textbox>"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quelle balise est utilisée pour définir un niveau de titre principal?",
+      "options": [
+        "<heading>",
+        "<h1>",
+        "<title>",
+        "<header>"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Quel attribut est utilisé pour rendre un champ de formulaire obligatoire?",
+      "options": [
+        "mandatory",
+        "required",
+        "validate",
+        "needed"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Quelle balise HTML est utilisée pour intégrer un fichier CSS?",
+      "options": [
+        "<css>",
+        "<stylesheet>",
+        "<style>",
+        "<link>"
+      ],
+      "answer": 3
+    }
+  ]
+}

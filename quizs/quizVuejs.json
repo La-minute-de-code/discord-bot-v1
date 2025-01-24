@@ -1,0 +1,195 @@
+{
+  "quizName": "Quiz Vue.js",
+  "questions": [
+    {
+      "question": "Qu'est-ce que Vue.js?",
+      "options": [
+        "Un framework JavaScript pour construire des interfaces utilisateur",
+        "Une bibliothèque CSS pour la mise en page",
+        "Un langage de programmation pour les applications web",
+        "Un gestionnaire de bases de données"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le principal objectif de Vue.js?",
+      "options": [
+        "Construire des interfaces utilisateur réactives et performantes",
+        "Gérer des bases de données",
+        "Construire des applications serveur",
+        "Manipuler directement le DOM avec des sélecteurs CSS"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quelle directive Vue.js permet de lier une donnée à un attribut HTML?",
+      "options": [
+        "v-bind",
+        "v-model",
+        "v-if",
+        "v-for"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment créer un composant dans Vue.js?",
+      "options": [
+        "En utilisant la méthode Vue.component()",
+        "En utilisant la directive v-component",
+        "En utilisant la fonction Vue.createComponent()",
+        "En déclarant un fichier de composant"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le rôle de v-model dans Vue.js?",
+      "options": [
+        "Créer une liaison bidirectionnelle entre un champ de formulaire et une donnée",
+        "Définir un modèle de données dans l'application",
+        "Appliquer un style CSS dynamique",
+        "Gérer l'état global de l'application"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Que fait la directive v-for dans Vue.js?",
+      "options": [
+        "Elle itère sur une liste d'éléments",
+        "Elle définit un composant dynamique",
+        "Elle applique une condition",
+        "Elle lie un champ de formulaire à une donnée"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment définir un état réactif dans Vue.js?",
+      "options": [
+        "En utilisant l'option data dans un composant",
+        "En utilisant l'option state dans un composant",
+        "En utilisant la méthode vue.set()",
+        "En utilisant la directive v-state"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Que fait la directive v-if dans Vue.js?",
+      "options": [
+        "Elle conditionne l'affichage d'un élément",
+        "Elle applique un style conditionnel",
+        "Elle lie un attribut à une donnée",
+        "Elle affiche un message d'erreur"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment manipuler les événements dans Vue.js?",
+      "options": [
+        "En utilisant la directive v-on",
+        "En utilisant la méthode vue.emit()",
+        "En utilisant la directive v-event",
+        "En utilisant la méthode vue.addEventListener()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment créer une méthode dans un composant Vue.js?",
+      "options": [
+        "En la déclarant dans l'objet methods",
+        "En utilisant la méthode Vue.methods()",
+        "En la déclarant dans l'objet data",
+        "En la déclarant dans l'objet computed"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est l'objectif de l'option computed dans Vue.js?",
+      "options": [
+        "Effectuer des calculs réactifs basés sur des données",
+        "Gérer l'état global de l'application",
+        "Gérer la mise à jour de l'interface utilisateur",
+        "Définir des valeurs statiques"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est l'objectif de Vue Router?",
+      "options": [
+        "Gérer la navigation dans une application Vue.js",
+        "Effectuer des appels API dans Vue.js",
+        "Gérer l'état global de l'application",
+        "Appliquer des styles conditionnels"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment utiliser Vuex dans une application Vue.js?",
+      "options": [
+        "En utilisant la méthode Vue.use(Vuex)",
+        "En ajoutant Vuex dans le fichier HTML",
+        "En utilisant la directive v-state",
+        "En créant une nouvelle instance de Vuex"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Qu'est-ce qu'un mixin dans Vue.js?",
+      "options": [
+        "Un morceau de code réutilisable entre plusieurs composants",
+        "Une méthode pour gérer les événements",
+        "Un service externe pour les appels API",
+        "Un style CSS dynamique"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Que fait la méthode Vue.nextTick()?",
+      "options": [
+        "Elle permet d'exécuter du code après que le DOM a été mis à jour",
+        "Elle permet de manipuler les éléments du DOM directement",
+        "Elle permet d'ajouter des événements au DOM",
+        "Elle réinitialise l'état de l'application"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Qu'est-ce que le système de slots dans Vue.js?",
+      "options": [
+        "Une fonctionnalité permettant d'insérer du contenu dans un composant",
+        "Un système de gestion des données",
+        "Une fonctionnalité permettant de gérer les erreurs",
+        "Un service de gestion des événements"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel fichier contient la configuration principale d'une application Vue.js?",
+      "options": [
+        "main.js",
+        "app.vue",
+        "index.html",
+        "vue.config.js"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Qu'est-ce qu'un filtre dans Vue.js?",
+      "options": [
+        "Une fonction qui transforme les données avant leur affichage",
+        "Une méthode pour gérer les événements",
+        "Une directive pour lier des données",
+        "Une fonctionnalité pour gérer l'état global"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment exécuter une application Vue.js en mode développement?",
+      "options": [
+        "npm run serve",
+        "vue serve",
+        "npm start",
+        "vue start"
+      ],
+      "answer": 0
+    }
+  ]
+}

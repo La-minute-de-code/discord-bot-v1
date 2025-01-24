@@ -1,0 +1,205 @@
+{
+  "quizName": "Quiz Symfony",
+  "questions": [
+    {
+      "question": "Qu'est-ce que Symfony?",
+      "options": [
+        "Un framework PHP pour développer des applications web",
+        "Un CMS basé sur PHP",
+        "Un outil de gestion de base de données",
+        "Une bibliothèque JavaScript"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel composant de Symfony permet de gérer les routes?",
+      "options": [
+        "Routing",
+        "Controller",
+        "Kernel",
+        "Twig"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment créer un nouveau contrôleur dans Symfony?",
+      "options": [
+        "php bin/console make:controller",
+        "php bin/console create:controller",
+        "php bin/console generate:controller",
+        "php bin/console controller:new"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quelle commande est utilisée pour créer une entité Doctrine dans Symfony?",
+      "options": [
+        "php bin/console make:entity",
+        "php bin/console generate:entity",
+        "php bin/console create:entity",
+        "php bin/console new:entity"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le rôle du composant Doctrine dans Symfony?",
+      "options": [
+        "Gérer les bases de données et les entités",
+        "Gérer la sécurité des utilisateurs",
+        "Gérer les requêtes HTTP",
+        "Gérer les templates"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel fichier de configuration est utilisé pour définir les services dans Symfony?",
+      "options": [
+        "config/services.yaml",
+        "config/routes.yaml",
+        "config/app.yaml",
+        "config/database.yaml"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quelle est la méthode de Symfony pour gérer les événements?",
+      "options": [
+        "EventDispatcher",
+        "EventManager",
+        "EventListener",
+        "EventHub"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment appelle-t-on un service dans Symfony?",
+      "options": [
+        "Via l'injection de dépendance",
+        "Avec la commande service()",
+        "En l'appelant directement dans un contrôleur",
+        "Via le composant Request"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment générer une migration de base de données avec Symfony?",
+      "options": [
+        "php bin/console make:migration",
+        "php bin/console generate:migration",
+        "php bin/console doctrine:migration:generate",
+        "php bin/console create:migration"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le rôle de Symfony Flex?",
+      "options": [
+        "Faciliter l'installation et la configuration des packages",
+        "Gérer les migrations de base de données",
+        "Gérer les routes et les contrôleurs",
+        "Optimiser les performances de Symfony"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Qu'est-ce qu'un 'Twig' dans Symfony?",
+      "options": [
+        "Un moteur de templates",
+        "Un service de cache",
+        "Un composant de sécurité",
+        "Un framework de test"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment configurer les routes dans Symfony?",
+      "options": [
+        "En utilisant le fichier routes.yaml",
+        "En configurant directement dans le contrôleur",
+        "En utilisant la commande php bin/console route:add",
+        "En créant un fichier route.php"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel composant Symfony est utilisé pour gérer la sécurité des utilisateurs?",
+      "options": [
+        "Security",
+        "Authentication",
+        "AccessControl",
+        "UserManager"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est l'objectif principal de Symfony Console?",
+      "options": [
+        "Permettre de créer des commandes CLI",
+        "Gérer les fichiers de configuration",
+        "Gérer les routes",
+        "Gérer la sécurité"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment installer un package avec Symfony Flex?",
+      "options": [
+        "composer require package-name",
+        "php bin/console install package-name",
+        "composer install package-name",
+        "php bin/console flex:install package-name"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment sécuriser une route dans Symfony?",
+      "options": [
+        "En utilisant des règles de sécurité dans security.yaml",
+        "En utilisant le composant Authentication",
+        "En ajoutant un middleware",
+        "En définissant des rôles dans le contrôleur"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment accéder à un paramètre de configuration dans Symfony?",
+      "options": [
+        "En utilisant le service ParameterBag",
+        "En utilisant la fonction getParameter() dans un contrôleur",
+        "En accédant à $_CONFIG",
+        "En utilisant le composant config:parameter"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Comment tester une application Symfony?",
+      "options": [
+        "En utilisant le composant Symfony Panther",
+        "En utilisant PHPUnit avec Symfony",
+        "En créant des tests manuels",
+        "En utilisant le service Symfony:debug"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Comment créer une page d'erreur personnalisée dans Symfony?",
+      "options": [
+        "En créant un fichier Twig pour la page d'erreur",
+        "En configurant le fichier error.yaml",
+        "En modifiant le contrôleur ErrorController",
+        "En activant le mode debug"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le rôle des événements dans Symfony?",
+      "options": [
+        "Ils permettent d'intercepter et de manipuler des actions dans l'application",
+        "Ils gèrent les erreurs et les exceptions",
+        "Ils définissent les routes",
+        "Ils gèrent les tests d'unité"
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "quizName": "Quiz Angular",
+  "questions": [
+    {
+      "question": "Qu'est-ce qu'Angular?",
+      "options": [
+        "Un framework JavaScript pour construire des applications web",
+        "Un CMS",
+        "Un langage de programmation",
+        "Un outil de gestion de base de données"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel langage est utilisé pour développer des applications Angular?",
+      "options": [
+        "TypeScript",
+        "JavaScript",
+        "Dart",
+        "Java"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le rôle du module Angular?",
+      "options": [
+        "Gérer les composants, services, et autres parties de l'application",
+        "Définir la logique des applications",
+        "Gérer la base de données",
+        "Gérer les routes"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment créer un nouveau projet Angular?",
+      "options": [
+        "ng new project-name",
+        "ng create project-name",
+        "angular create project-name",
+        "ng generate project-name"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Qu'est-ce qu'un composant dans Angular?",
+      "options": [
+        "Une unité de base d'une interface utilisateur",
+        "Un service utilisé pour interagir avec une API",
+        "Un module contenant des routes",
+        "Une bibliothèque externe"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment déclarer un composant dans Angular?",
+      "options": [
+        "En utilisant le décorateur @Component",
+        "En utilisant le décorateur @Injectable",
+        "En utilisant le décorateur @Module",
+        "En utilisant le décorateur @Directive"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel fichier contient la configuration des routes dans Angular?",
+      "options": [
+        "app-routing.module.ts",
+        "routes.ts",
+        "app.module.ts",
+        "routing.config.ts"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le rôle d'un service dans Angular?",
+      "options": [
+        "Fournir une logique réutilisable et interagir avec les API",
+        "Créer des composants dynamiques",
+        "Gérer les routes",
+        "Gérer les interactions avec la base de données"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment injecter un service dans un composant Angular?",
+      "options": [
+        "Via le constructeur du composant",
+        "Via la méthode ngOnInit()",
+        "En utilisant la directive @Inject",
+        "En créant un service dans chaque composant"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Qu'est-ce qu'un module Angular?",
+      "options": [
+        "Un regroupement de composants, services et autres éléments Angular",
+        "Une bibliothèque JavaScript",
+        "Un composant d'affichage",
+        "Un service externe"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Qu'est-ce que RxJS dans Angular?",
+      "options": [
+        "Une bibliothèque pour gérer les flux de données asynchrones",
+        "Un outil de gestion des états",
+        "Un moteur de templates",
+        "Un gestionnaire de routes"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Que fait la directive ngFor dans Angular?",
+      "options": [
+        "Elle itère sur une liste de données",
+        "Elle lie une donnée à un élément DOM",
+        "Elle affiche une erreur",
+        "Elle définit un style CSS"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Qu'est-ce qu'un pipe dans Angular?",
+      "options": [
+        "Une fonction permettant de transformer les données avant leur affichage",
+        "Une méthode pour injecter des dépendances",
+        "Un composant de navigation",
+        "Un service de gestion de formulaire"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment gérer les formulaires réactifs dans Angular?",
+      "options": [
+        "En utilisant ReactiveFormsModule",
+        "En utilisant TemplateDrivenFormsModule",
+        "En utilisant la directive ngModel",
+        "En utilisant le module FormModule"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment exécuter une application Angular en mode développement?",
+      "options": [
+        "ng serve",
+        "ng start",
+        "ng run",
+        "angular start"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est l'objectif principal de l'AOT (Ahead-of-Time) compilation dans Angular?",
+      "options": [
+        "Améliorer les performances en pré-compilant l'application avant son exécution",
+        "Exécuter du code JavaScript plus rapidement",
+        "Optimiser la gestion des données",
+        "Diminuer la taille des fichiers CSS"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment appliquer des styles CSS spécifiques à un composant dans Angular?",
+      "options": [
+        "En utilisant le décorateur @Component avec le champ styles",
+        "En utilisant une feuille de style globale",
+        "En utilisant la directive ngStyle",
+        "En déclarant les styles dans le fichier app.css"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment gérer la sécurité dans Angular?",
+      "options": [
+        "En utilisant le module Angular Security",
+        "En utilisant le composant HttpClientModule pour protéger les API",
+        "En activant les CSP (Content Security Policies)",
+        "En utilisant des tokens JWT pour l'authentification"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Qu'est-ce que la méthode ngOnInit() dans un composant Angular?",
+      "options": [
+        "Un cycle de vie qui est appelé après la création du composant",
+        "Une méthode utilisée pour manipuler le DOM",
+        "Une méthode utilisée pour définir les routes",
+        "Une méthode utilisée pour gérer les événements"
+      ],
+      "answer": 0
+    }
+  ]
+}

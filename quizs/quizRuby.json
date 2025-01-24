@@ -1,0 +1,205 @@
+{
+  "quizName": "Quiz Ruby",
+  "questions": [
+    {
+      "question": "Quel mot-clé est utilisé pour définir une classe en Ruby?",
+      "options": [
+        "class",
+        "def",
+        "module",
+        "type"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le type de données utilisé pour représenter un nombre entier en Ruby?",
+      "options": [
+        "Integer",
+        "Fixnum",
+        "Float",
+        "Number"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le symbole utilisé pour définir un commentaire sur une ligne en Ruby?",
+      "options": [
+        "#",
+        "//",
+        "/*",
+        "--"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel mot-clé est utilisé pour créer une méthode en Ruby?",
+      "options": [
+        "def",
+        "function",
+        "method",
+        "create"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment créer un tableau en Ruby?",
+      "options": [
+        "array = []",
+        "array = ()",
+        "array = {}",
+        "array = Array.new"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment définir une variable globale en Ruby?",
+      "options": [
+        "$variable",
+        "@variable",
+        "variable",
+        "%variable"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel mot-clé est utilisé pour hériter d'une classe en Ruby?",
+      "options": [
+        "class Child < Parent",
+        "inherits Parent",
+        "extends Parent",
+        "class Child : Parent"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Que fait la méthode 'puts' en Ruby?",
+      "options": [
+        "Affiche une ligne dans la console",
+        "Renvoie une valeur",
+        "Prend une entrée utilisateur",
+        "Écrit dans un fichier"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quelle est la méthode pour ajouter un élément à un tableau en Ruby?",
+      "options": [
+        "push",
+        "append",
+        "add",
+        "insert"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Que fait l'expression 'x ||= 5' en Ruby?",
+      "options": [
+        "Assigne 5 à x si x est nil ou false",
+        "Assigne 5 à x",
+        "Vérifie si x est égal à 5",
+        "Réinitialise x à 5"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment déclarer une constante en Ruby?",
+      "options": [
+        "CONSTANT = value",
+        "constant = value",
+        "Const::value",
+        "Value::CONSTANT"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le type de données utilisé pour une chaîne de caractères en Ruby?",
+      "options": [
+        "String",
+        "Text",
+        "Char",
+        "Words"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le rôle du mot-clé 'self' en Ruby?",
+      "options": [
+        "Il fait référence à l'objet actuel",
+        "Il fait référence à la classe actuelle",
+        "Il appelle une méthode de classe",
+        "Il définit une méthode d'instance"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment vérifier si une condition est vraie en Ruby?",
+      "options": [
+        "if condition",
+        "when condition",
+        "check condition",
+        "test condition"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quelle est la méthode pour obtenir la longueur d'un tableau en Ruby?",
+      "options": [
+        "length",
+        "size",
+        "count",
+        "measure"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment définit-on un bloc en Ruby?",
+      "options": [
+        "{ }",
+        "( )",
+        "[ ]",
+        "< >"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le type de données pour les nombres décimaux en Ruby?",
+      "options": [
+        "Float",
+        "Decimal",
+        "Real",
+        "Double"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Que fait la méthode 'map' en Ruby?",
+      "options": [
+        "Applique un bloc de code à chaque élément d'un tableau",
+        "Retourne un tableau vide",
+        "Supprime les éléments d'un tableau",
+        "Filtre les éléments d'un tableau"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quelle méthode est utilisée pour enlever des espaces au début et à la fin d'une chaîne en Ruby?",
+      "options": [
+        "strip",
+        "trim",
+        "chomp",
+        "clean"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le rôle de la méthode 'initialize' dans une classe Ruby?",
+      "options": [
+        "Elle initialise un objet lors de sa création",
+        "Elle définit les méthodes d'une classe",
+        "Elle change la valeur d'une constante",
+        "Elle gère les exceptions"
+      ],
+      "answer": 0
+    }
+  ]
+}

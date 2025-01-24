@@ -1,0 +1,195 @@
+{
+  "quizName": "Quiz C#",
+  "questions": [
+    {
+      "question": "Quel est le type de base pour une chaîne de caractères en C#?",
+      "options": [
+        "string",
+        "char",
+        "text",
+        "str"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel mot-clé est utilisé pour déclarer une classe en C#?",
+      "options": [
+        "class",
+        "struct",
+        "object",
+        "type"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quelle est la méthode pour afficher un message dans la console en C#?",
+      "options": [
+        "Console.WriteLine()",
+        "System.Print()",
+        "Console.Print()",
+        "WriteLine.Console()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel type de données est utilisé pour stocker une valeur booléenne en C#?",
+      "options": [
+        "bool",
+        "boolean",
+        "int",
+        "char"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment déclarer un tableau d'entiers en C#?",
+      "options": [
+        "int[] arr;",
+        "array<int> arr;",
+        "int arr[];",
+        "list<int> arr;"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le mot-clé utilisé pour créer une instance d'un objet en C#?",
+      "options": [
+        "new",
+        "create",
+        "instantiate",
+        "object"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment déclarer une constante en C#?",
+      "options": [
+        "const",
+        "final",
+        "static",
+        "readonly"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le mot-clé pour hériter d'une classe en C#?",
+      "options": [
+        "base",
+        "inherits",
+        "extends",
+        "is"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment déclarer une méthode en C#?",
+      "options": [
+        "void MethodName()",
+        "def MethodName()",
+        "function MethodName()",
+        "method MethodName()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel type de données est retourné par la méthode 'ToString()' en C#?",
+      "options": [
+        "string",
+        "int",
+        "char",
+        "bool"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel mot-clé est utilisé pour gérer les exceptions en C#?",
+      "options": [
+        "try/catch",
+        "catch/throw",
+        "throw/catch",
+        "error/handle"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le rôle de la méthode 'Main' dans une application C#?",
+      "options": [
+        "Point d'entrée de l'application",
+        "Exécuter des tests",
+        "Gérer les exceptions",
+        "Créer un objet"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le type de données pour représenter un caractère en C#?",
+      "options": [
+        "char",
+        "string",
+        "byte",
+        "int"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment créer une interface en C#?",
+      "options": [
+        "interface IExample",
+        "class IExample",
+        "interface Example",
+        "class Example"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le type de retour d'une méthode void en C#?",
+      "options": [
+        "Aucune valeur",
+        "int",
+        "string",
+        "bool"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment initialiser une liste générique en C#?",
+      "options": [
+        "List<int> list = new List<int>();",
+        "list<int> list = new list<int>();",
+        "new List<int>()",
+        "List list = new List<int>();"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel mot-clé est utilisé pour déclarer une classe comme dérivée d'une autre classe en C#?",
+      "options": [
+        "base",
+        "inherited",
+        "extends",
+        "is"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment déclarer un événement en C#?",
+      "options": [
+        "event EventHandler eventName;",
+        "add EventHandler eventName;",
+        "create EventHandler eventName;",
+        "delegate EventHandler eventName;"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment accéder à un membre d'une classe en C#?",
+      "options": [
+        "objet.Membre",
+        "objet::Membre",
+        "objet->Membre",
+        "objet:Membre"
+      ],
+      "answer": 0
+    }
+  ]
+}

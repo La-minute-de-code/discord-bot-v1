@@ -1,0 +1,195 @@
+{
+  "quizName": "Quiz Python",
+  "questions": [
+    {
+      "question": "Qu'est-ce qu'une liste en Python?",
+      "options": [
+        "Une structure de données mutable et ordonnée",
+        "Une structure de données immuable et ordonnée",
+        "Une fonction pour afficher des éléments",
+        "Un type de variable pour les chaînes de caractères"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel symbole est utilisé pour la division entière en Python?",
+      "options": [
+        "//",
+        "/",
+        "%",
+        "&"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le résultat de 3 * 2 + 1 en Python?",
+      "options": [
+        "7",
+        "9",
+        "5",
+        "6"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment définir une fonction en Python?",
+      "options": [
+        "def ma_fonction():",
+        "function ma_fonction():",
+        "create ma_fonction():",
+        "fun ma_fonction()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Qu'est-ce qu'une 'tuple' en Python?",
+      "options": [
+        "Une structure de données immuable et ordonnée",
+        "Une structure de données mutable et ordonnée",
+        "Une fonction mathématique",
+        "Une variable qui stocke des chaînes de caractères"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le type de la variable suivante: `x = {1, 2, 3}`?",
+      "options": [
+        "Set",
+        "List",
+        "Tuple",
+        "Dictionary"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quelle commande permet d'afficher un message en Python?",
+      "options": [
+        "print()",
+        "echo()",
+        "display()",
+        "output()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment créer une boucle 'for' en Python?",
+      "options": [
+        "for i in range(5):",
+        "for i = 0; i < 5; i++:",
+        "loop i in range(5):",
+        "for i: 5"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le mot-clé pour créer une classe en Python?",
+      "options": [
+        "class",
+        "create",
+        "struct",
+        "def"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quelle méthode permet de transformer une chaîne en majuscules en Python?",
+      "options": [
+        "upper()",
+        "capitalize()",
+        "toUpperCase()",
+        "makeUpper()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment importer une bibliothèque en Python?",
+      "options": [
+        "import",
+        "include",
+        "require",
+        "use"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Qu'est-ce qu'un dictionnaire en Python?",
+      "options": [
+        "Une structure de données clé-valeur",
+        "Une liste de données",
+        "Une fonction mathématique",
+        "Une chaîne de caractères"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le résultat de l'expression `2 ** 3` en Python?",
+      "options": [
+        "8",
+        "6",
+        "5",
+        "9"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment déclarer une variable constante en Python?",
+      "options": [
+        "En utilisant des lettres majuscules pour le nom de la variable",
+        "En utilisant le mot-clé 'constant'",
+        "En utilisant 'const' avant la variable",
+        "Python ne supporte pas les constantes"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quelle fonction permet de lire une entrée de l'utilisateur en Python?",
+      "options": [
+        "input()",
+        "read()",
+        "scan()",
+        "get()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment manipuler des exceptions en Python?",
+      "options": [
+        "try/except",
+        "catch/throw",
+        "try/catch",
+        "error/handle"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le rôle de la fonction 'len()' en Python?",
+      "options": [
+        "Retourner la longueur d'un objet",
+        "Retourner le type de l'objet",
+        "Retourner la première lettre d'un objet",
+        "Retourner l'objet en minuscules"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment vérifier si une variable est de type liste en Python?",
+      "options": [
+        "isinstance(variable, list)",
+        "type(variable) == list",
+        "variable.is_list()",
+        "check_type(variable, list)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Comment définir une méthode dans une classe en Python?",
+      "options": [
+        "def method(self):",
+        "function method(self):",
+        "method(self):",
+        "create method(self):"
+      ],
+      "answer": 0
+    }
+  ]
+}
