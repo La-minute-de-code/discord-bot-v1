@@ -19,7 +19,7 @@ module.exports = {
                 console.log('Synchronisation initiale terminée!');
             }
 
-            // Configuration de l'événement pour les nouveaux membres
+
             client.on(Events.GuildMemberAdd, async (member) => {
                 try {
                     await saveUserData(member);
@@ -35,7 +35,6 @@ module.exports = {
 };
 
 async function saveUserData(member) {
-    // Vérifier si l'utilisateur existe déjà
     const existingUser = await prisma.user.findUnique({
         where: { id: member.user.id }
     });

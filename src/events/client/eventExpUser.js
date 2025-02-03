@@ -37,7 +37,6 @@ module.exports = {
                 logChannel.send(`📝 ${message.author} a reçu 100 points d'expérience pour sa fidélité quotidienne dans ${message.channel}`);
             }
 
-            // Compteur de messages
             const newMessageCount = (user.messageCount || 0) + 1;
             if (newMessageCount >= 20) {
                 await prisma.user.update({
@@ -56,7 +55,7 @@ module.exports = {
                 });
             }
 
-            // Vérifier si c'est un message dans un forum d'aide
+
             if (message.channel.parent?.parent?.id === process.env.HELP_CATEGORY && 
                 message.member.roles.cache.has(process.env.HELPEURS_ROLE)) {
                 
@@ -90,7 +89,7 @@ module.exports = {
                 }
             }
 
-            // Partage de ressources
+            
             if (message.channel.id === process.env.SALON_OUTILS) {
                 const urlRegex = /(https?:\/\/[^\s]+)/g;
                 if (urlRegex.test(message.content)) {
@@ -104,7 +103,7 @@ module.exports = {
                 }
             }
 
-            // Partage de GitHub
+   
             if (message.channel.id === process.env.SALON_GITHUB) {
                 const githubRegex = /https?:\/\/(?:www\.)?github\.com\/[^\s]+/g;
                 if (githubRegex.test(message.content)) {
