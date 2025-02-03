@@ -1,6 +1,6 @@
 const { SlashCommandBuilder, PermissionFlagsBits } = require('discord.js');
 require('dotenv').config();
-const { ADMIN_ROLE, ROLE_TEST } = process.env;
+const { ADMIN_ROLE, MEMBERS_ROLE } = process.env;
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -37,7 +37,7 @@ module.exports = {
 
         const numberEmojis = ['1️⃣', '2️⃣', '3️⃣', '4️⃣', '5️⃣', '6️⃣', '7️⃣', '8️⃣', '9️⃣'];
         
-        let sondageMessage = `<@&${ROLE_TEST}>\n\n\n📊 **${question}**\n\n`;
+        let sondageMessage = `<@&${MEMBERS_ROLE}>\n\n\n📊 **${question}**\n\n`;
         options.forEach((option, index) => {
             sondageMessage += `${numberEmojis[index]} ${option}\n\n`;
         });
