@@ -55,41 +55,6 @@ module.exports = {
                 });
             }
 
-
-            if (message.channel.parent?.parent?.id === process.env.HELP_CATEGORY && 
-                message.member.roles.cache.has(process.env.HELPEURS_ROLE)) {
-                
-                const thread = message.channel;
-                
-                if (thread.ownerId !== message.author.id) {
-                    const hasReceivedPoints = await prisma.threadReward.findFirst({
-                        where: {
-                            threadId: thread.id,
-                            userId: message.author.id
-                        }
-                    });
-
-                    if (!hasReceivedPoints) {
-                        await prisma.user.update({
-                            where: { id: message.author.id },
-                            data: {
-                                exp: { increment: 100 }
-                            }
-                        });
-
-                        await prisma.threadReward.create({
-                            data: {
-                                threadId: thread.id,
-                                userId: message.author.id
-                            }
-                        });
-
-                        logChannel.send(`📝 ${message.author} a reçu 100 points d'expérience pour avoir aidé dans le post ${thread.name}`);
-                    }
-                }
-            }
-
-            
             if (message.channel.id === process.env.SALON_OUTILS) {
                 const urlRegex = /(https?:\/\/[^\s]+)/g;
                 if (urlRegex.test(message.content)) {
